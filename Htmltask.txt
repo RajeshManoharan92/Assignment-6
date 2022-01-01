@@ -1,0 +1,440 @@
+1.Fix the bugs in below snippet
+<html lang="en">
+
+<head>
+    <title> Document </title>
+</head>
+
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>
+</body>
+
+</html>
+
+---------------------------------------------
+
+2. Try the below one
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>
+</body>
+
+</html>
+
+--------------------------------------------------
+
+3 .Design a contact us form with all fields as required.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body style="color:darkblue;" bgcolor="sky blue">
+    <form style="text-align: center;">
+        <h3 "color: brown" ;> Contact Us </h3>
+        <div>
+            <label for="name"> Full Name </label> <br>
+            <input type="text" name="Full Name" id="name" required> <br></br>
+        </div>
+        <div>
+            <label for="email"> Email </label> <br>
+            <input type="email" name="Email" id="email" required> <br></br>
+        </div>
+        <div>
+            <label for="message"> Message </label> <br>
+            <input type="text" name="Message" id="message" required style="height: 100px; width: 160px;"> <br></br>
+        </div> <br>
+        <button type="submit"> Submit </button>
+    </form>
+</body>
+
+</html>
+
+-------------------------------------
+
+4.Use certain HTML elements to display the following in a HTML page.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .l1 {
+            padding-left: 20px;
+        }
+
+        .l2 {
+            padding-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    &#9679 Programming Language <br>
+    <span class="l1"> &#9675 JavaScript </span> <br>
+    <div class="l2">
+        a. Angular <br>
+        b. React <br>
+        c. Vue.js <br>
+    </div>
+    <span class="l1">&#9675 Python </span> <br>
+    <div class="l2">
+        a. Django Framework <br>
+        b. Flask Framework <br>
+    </div>
+    <span class="l1">&#9675 Java </span> <br>
+    <div class="l2">
+        a. Spring <br>
+        b. Maven <br>
+        c. Hibernate <br>
+    </div>
+    &#9679 Database <br>
+    <div class="l1">
+        &#9675 MySQL <br>
+        &#9675 MongoDB <br>
+        &#9675 Cansandra <br>
+    </div>
+</body>
+
+</html>
+
+-------------------------------------
+
+5.Create an element that helps you to open the https://google.com in separate new tab
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://google.com/" target="_blank"> Search </a>
+</body>
+
+</html>
+
+--------------------------------
+
+6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3> Employee Type </h3>
+    <input type="radio" name="Employee Type" id='sal' value="salaried"> Salaried <br></br>
+    <input type="radio" name="Employee Type" id='OB' value="Own Buisness"> Own Buisness
+</body>
+
+</html>
+
+------------------------------------
+
+7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .l1 {
+            vertical-align: 'bottom';
+            bottom: -3px;
+            position: relative;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .l2 {
+            vertical-align: top;
+            top: 3px;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        .l3 {
+            background-color: red;
+            color: white;
+            vertical-align: top;
+            top: 3px;
+            position: relative;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body style=" color: black ; background-color:black; text-align: center;">
+    <div style="background-color: white; border:solid; width: 22%; padding: 5px;">
+        <div style="border: solid; color: black;">
+            <span class="l3"> Yes! I want to subscribe to </span>
+            <span class="l3" style=" font-style: italic;"> Mag-O-Zine </span> <br>
+            <div style="line-height: 40%;vertical-align: top;top: 5px;position: relative;">
+                <span class="l1" style="padding-left: 50px; "> Joe </span> <span class="l1" style="padding-left: 95px;">
+                    schmegeggie </span> <br>
+                <span style="height: 2px; padding-left: 20px;font-weight: bold;">
+                    &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span>
+                <br>
+                <div style="text-align: left; left: 5px;position: relative;">
+                    <span class="l2" style="padding-left: 15px;"> First Name </span> <span class="l2"
+                        style="padding-left: 105px"> Last Name </span> <br></br>
+                    <span class="l1" style="padding-left: 50px"> 1001 Washington Street </span>
+                    <hr style="width: 75%; height: 1px; background-color: black; padding-right: 40px;">
+                    <span class="l2" style="padding-left: 15px;vertical-align: top; top: -3px; position: relative;">
+                        Address </span> <br></br>
+                    <span class="l1" style="padding-left: 35px;"> AMTOWN </span> <span class="l1"
+                        style="padding-left: 45px" ;> CA </span><span class="l1" style="padding-left: 40px;">999999
+                    </span> <br>
+                    <span> &nbsp; &nbsp;
+                        &nbsp;&mdash;&mdash;&mdash;&mdash;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&mdash;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&mdash;&mdash;&mdash;</span>
+                    <br>
+                    <span class="l2" style="padding-left: 15px;">City <span style="padding-left: 90px" ;>State </span>
+                        <span style="padding-left: 42px;"> Zip </span>
+                </div>
+            </div>
+
+
+            <div
+                style=" text-align: left; padding-left: 10px  ;font-family: Arial, Helvetica, sans-serif; font-size: 11.5px; font-weight: bold;">
+                <br>
+                <span>Subscribe for:
+                    <input type="checkbox" name="1 yr(100)" id:1> 1 year($19.95)
+                    <input type="checkbox" name="1 yr(100)" id:2> 2 yearS($35.00)
+                </span>
+                <div style="line-height: 150%">
+                    <span> Send me more information about:</span> <br>
+                    <input type="checkbox" name="1 yr(100)" id:3> Computer-Zine <br>
+                    <input type="checkbox" name="1 yr(100)" id:4> Fishing-Zine <br>
+                    <input type="checkbox" name="1 yr(100)" id:5> Cat-O-Zine <br>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+</body>
+</html>
+
+------------------------------------
+
+8.Use the table tag to design given image 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        thead,
+        tbody,
+        tr,
+        td {
+            border: 2px solid darkblue;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="text-align: center;">Health Chart</h3>
+    <table style="width: 50" align="center">
+        <tbody>
+            <tr>
+                <td rowspan="2" style="text-align: center;">State Of Health</td>
+                <td colspan="2" style="text-align: center;">Fasting Value</td>
+                <td style="text-align: center;">After Eating</td>
+            </tr>
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hrs of eating</td>
+            </tr>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+
+        </tbody>
+
+        </tbody>
+</body>
+
+</html>
+
+--------------------------------------
+
+9. Write HTML input tags snippet to show default values for all Form elements.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="idvalue">Name</label>
+        <input type="checkbox" name="checkbox" id="1" value="courses" checked> checkbox <br></br>
+        <input type="color" name="select color" id="2" value="blue">color <br></br>
+        <input type="date" name="select date" id="3" value="2021-12-22">Date <br></br>
+        <input type="datetime" name="select datetime" id="4" value="2021-12-22">Date & Time <br></br>
+        <input type="datetime-local" name="select datetime-local" id="5" value="2021-12-22"> Date & Time Local
+        <br></br>
+        <input type="email" name="enteryouremail" id="6" value="mm@gmail.com">E-Mail <br></br>
+        <input type="file" name="choose your file" id="7" value="selectedfile"> File <br></br>
+        <input type="hidden" name="choose file to hidden" id="8" value="selectedfiletohidden">hidden <br></br>
+        <input type="image" name="choose image file" id="9" value="selected image">image <br></br>
+        <input type="month" name="choosemonth" id="10" value="selected month">month <br></br>
+        <input type="button" name="submit" id="11" value="buttonvalue"> Button<br></br>
+        <input type="number" name="select number" id="12" value="slectednumber">Number<br></br>
+        <input type="password" name="enteryourpassword" id="13" value="EnteredPassword"> password <br></br>
+        <input type="radio" name="Gender" id="14" value="Male" checked>radio <br></br>
+        <input type="range" name="EnterRangeValue" id="15" value="selectedrange">range <br></br>
+        <input type="reset" name="Reset" id="16" value="Resetedvalue">reset <br></br>
+        <input type="search" name="search" id="17" value="google"> Search <br></br>
+        <input type="tel" name="telephonenumber" id="19" value="9791967710"> Tel <br></br>
+        <input type="text" name="enteryourtext" id="20" value="Rajesh">text <br></br>
+        <input type="time" name="enteryourtime" id="21" value="enteredtime">time <br></br>
+        <input type="url" name="enteryoururl" id="22" value="https:google.com">url <br></br>
+        <input type="week" name="selectyourweek" id="23" value="selectedweek"> Button<br></br>
+        <input type="submit" name="submit" id="18" value="submityourdetails">Submit <br></br>
+    </form>
+
+</body>
+
+</html>
+
+--------------------------------------
+
+10.In your, HTML page add the below line and Highlight it without using any CSS.
+
+"HTML & CSS is awesome"
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <mark>"HTML & CSS is awesome"</mark>
+</body>
+
+</html>
+
+----------------------------------
+
+11.Create an HTML page, which should contain all types of input elements.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="checkbox"> checkbox <br></br>
+    <input type="color">color <br></br>
+    <input type="date">Date <br></br>
+    <input type="datetime">Date & Time <br></br>
+    <input type="datetime-local"> Date & Time Local <br></br>
+    <input type="email">E-Mail <br></br>
+    <input type="file"> File <br></br>
+    <input type="hidden">hidden <br></br>
+    <input type="image">image <br></br>
+    <input type="month">month <br></br>
+    <input type="button"> Button<br></br>
+    <input type="number">Number<br></br>
+    <input type="password"> password <br></br>
+    <input type="radio">radio <br></br>
+    <input type="range">range <br></br>
+    <input type="reset">reset <br></br>
+    <input type="search"> Search <br></br>
+    <input type="submit">Submit <br></br>
+    <input type="tel"> Tel <br></br>
+    <input type="text">text <br></br>
+    <input type="time">time <br></br>
+    <input type="url">url <br></br>
+    <input type="week"> Button<br></br>
+
+</body>
+
+</html>
+
+---------------------------------------------------------------
